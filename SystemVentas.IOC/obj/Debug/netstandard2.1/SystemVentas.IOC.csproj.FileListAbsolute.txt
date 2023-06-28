@@ -1,0 +1,10 @@
+D:\Proyectos\C#\SystemVenta\SystemVentas.IOC\bin\Debug\netstandard2.1\SystemVentas.IOC.deps.json
+D:\Proyectos\C#\SystemVenta\SystemVentas.IOC\bin\Debug\netstandard2.1\SystemVentas.IOC.dll
+D:\Proyectos\C#\SystemVenta\SystemVentas.IOC\bin\Debug\netstandard2.1\SystemVentas.IOC.pdb
+D:\Proyectos\C#\SystemVenta\SystemVentas.IOC\obj\Debug\netstandard2.1\SystemVentas.IOC.csproj.AssemblyReference.cache
+D:\Proyectos\C#\SystemVenta\SystemVentas.IOC\obj\Debug\netstandard2.1\SystemVentas.IOC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\C#\SystemVenta\SystemVentas.IOC\obj\Debug\netstandard2.1\SystemVentas.IOC.AssemblyInfoInputs.cache
+D:\Proyectos\C#\SystemVenta\SystemVentas.IOC\obj\Debug\netstandard2.1\SystemVentas.IOC.AssemblyInfo.cs
+D:\Proyectos\C#\SystemVenta\SystemVentas.IOC\obj\Debug\netstandard2.1\SystemVentas.IOC.csproj.CoreCompileInputs.cache
+D:\Proyectos\C#\SystemVenta\SystemVentas.IOC\obj\Debug\netstandard2.1\SystemVentas.IOC.dll
+D:\Proyectos\C#\SystemVenta\SystemVentas.IOC\obj\Debug\netstandard2.1\SystemVentas.IOC.pdb

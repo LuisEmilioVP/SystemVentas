@@ -1,0 +1,10 @@
+D:\Proyectos\C#\SystemVenta\SystemVentas.Aplication\bin\Debug\netstandard2.1\SystemVentas.Application.deps.json
+D:\Proyectos\C#\SystemVenta\SystemVentas.Aplication\bin\Debug\netstandard2.1\SystemVentas.Application.dll
+D:\Proyectos\C#\SystemVenta\SystemVentas.Aplication\bin\Debug\netstandard2.1\SystemVentas.Application.pdb
+D:\Proyectos\C#\SystemVenta\SystemVentas.Aplication\obj\Debug\netstandard2.1\SystemVentas.Application.csproj.AssemblyReference.cache
+D:\Proyectos\C#\SystemVenta\SystemVentas.Aplication\obj\Debug\netstandard2.1\SystemVentas.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\C#\SystemVenta\SystemVentas.Aplication\obj\Debug\netstandard2.1\SystemVentas.Application.AssemblyInfoInputs.cache
+D:\Proyectos\C#\SystemVenta\SystemVentas.Aplication\obj\Debug\netstandard2.1\SystemVentas.Application.AssemblyInfo.cs
+D:\Proyectos\C#\SystemVenta\SystemVentas.Aplication\obj\Debug\netstandard2.1\SystemVentas.Application.csproj.CoreCompileInputs.cache
+D:\Proyectos\C#\SystemVenta\SystemVentas.Aplication\obj\Debug\netstandard2.1\SystemVentas.Application.dll
+D:\Proyectos\C#\SystemVenta\SystemVentas.Aplication\obj\Debug\netstandard2.1\SystemVentas.Application.pdb
