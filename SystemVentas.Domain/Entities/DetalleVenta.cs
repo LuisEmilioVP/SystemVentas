@@ -1,10 +1,12 @@
-﻿using SystemVentas.Domain.Core;
+﻿
+using System.ComponentModel.DataAnnotations;
+using SystemVentas.Domain.Core;
 
 namespace SystemVentas.Domain.Entities
 {
     public class DetalleVenta : BaseEntity
     {
-        public int IdDetalleVenta { get; set; }
+        [Key] public int IdDetalleVenta { get; set; }
         public int? IdVentas { get; set; }
         public int? IdProducto { get; set; }
         public string? MarcaProducto { get; set; }

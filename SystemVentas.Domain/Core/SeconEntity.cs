@@ -4,13 +4,13 @@ namespace SystemVentas.Domain.Core
 {
     public abstract class SeconEntity : BaseEntity
     {
-        public SeconEntity()
+        protected SeconEntity() 
         {
-            this.Estado = false;
             this.FechaRegistro = DateTime.Now;
+            this.Estado = false;
         }
 
-        public bool Estado { get; set; }
-        public DateTime FechaRegistro { get; set; }
+        public DateTime? FechaRegistro { get; set; }
+        public bool? Estado { get; set; }
     }
 }

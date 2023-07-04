@@ -8,3 +8,6 @@ D:\Proyectos\C#\SystemVenta\SystemVentas.Infrastructure\obj\Debug\netstandard2.1
 D:\Proyectos\C#\SystemVenta\SystemVentas.Infrastructure\obj\Debug\netstandard2.1\SystemVentas.Infrastructure.csproj.CoreCompileInputs.cache
 D:\Proyectos\C#\SystemVenta\SystemVentas.Infrastructure\obj\Debug\netstandard2.1\SystemVentas.Infrastructure.dll
 D:\Proyectos\C#\SystemVenta\SystemVentas.Infrastructure\obj\Debug\netstandard2.1\SystemVentas.Infrastructure.pdb
+D:\Proyectos\C#\SystemVenta\SystemVentas.Infrastructure\bin\Debug\netstandard2.1\SystemVentas.Domain.dll
+D:\Proyectos\C#\SystemVenta\SystemVentas.Infrastructure\bin\Debug\netstandard2.1\SystemVentas.Domain.pdb
+D:\Proyectos\C#\SystemVenta\SystemVentas.Infrastructure\obj\Debug\netstandard2.1\SystemVentas.Infrastructure.csproj.CopyComplete

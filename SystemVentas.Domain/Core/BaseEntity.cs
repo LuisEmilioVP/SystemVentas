@@ -4,8 +4,8 @@ namespace SystemVentas.Domain.Core
 {
     public abstract class BaseEntity
     {
-        public BaseEntity()
-        {
+        protected BaseEntity() 
+        { 
             this.DateCreation = DateTime.Now;
             this.Deleted = false;
         }

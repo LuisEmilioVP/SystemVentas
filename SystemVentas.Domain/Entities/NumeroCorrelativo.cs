@@ -1,12 +1,13 @@
-﻿using SystemVentas.Domain.Core;
+﻿using System.ComponentModel.DataAnnotations;
+using SystemVentas.Domain.Core;
 
 namespace SystemVentas.Domain.Entities
 {
     public class NumeroCorrelativo : BaseEntity
     {
-        public int IdNumeroCorrelativo { get; set; }
-        public int? UltimoNumero { get; set; }
-        public int? CantidadDigitos { get; set; }
+        [Key] public int IdNumeroCorrelativo { get; set; }
+        public string? UltimoNumero { get; set; }
+        public string? CantidadDigitos { get; set; }
         public string? Gestion { get; set; }
     }
 }

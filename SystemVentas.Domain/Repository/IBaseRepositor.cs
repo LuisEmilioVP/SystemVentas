@@ -4,11 +4,11 @@ using System.Linq.Expressions;
 
 namespace SystemVentas.Domain.Repository
 {
-    public interface IBaseRepository<TEntity> where TEntity : class
+    public interface IBaseRepositor<TEntity> where TEntity : class
     {
-        bool Existx(Expression<Func<TEntity, bool>> filter);
+        bool Exists(Expression<Func<TEntity, bool>> filter);
         List<TEntity> GetEntities();
-        TEntity GetEntity(int entityid);
+        TEntity GetEntity(int entityId);
 
         void Add(TEntity entity);
         void Add(TEntity[] entities);
