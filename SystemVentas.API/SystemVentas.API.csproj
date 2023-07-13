@@ -15,8 +15,4 @@
     <ProjectReference Include="..\SystemVentas.Infrastructure\SystemVentas.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

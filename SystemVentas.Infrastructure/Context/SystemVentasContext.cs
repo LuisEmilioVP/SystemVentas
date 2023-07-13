@@ -20,7 +20,7 @@ namespace SystemVentas.Infrastructure.Context
         public DbSet<Menu> Menu { get; set; } = null!;
         public DbSet<Negocio> Negocio { get; set; } = null!;
         public DbSet<NumeroCorrelativo> NumeroCorrelativo { get; set; } = null!;
-        public DbSet<Producto> Productos { get; set; } = null!;
+        public DbSet<Producto> Producto { get; set; } = null!;
         public DbSet<Rol> Rol { get; set; } = null!;
         public DbSet<RolMenu> RolMenu { get; set; } = null!;
         public DbSet<Suplidor> Suplidor { get; set; } = null!;

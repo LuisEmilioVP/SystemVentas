@@ -16,11 +16,7 @@
 
   <ItemGroup>
     <Folder Include="Context\" />
-    <Folder Include="Core\" />
-    <Folder Include="Exceptions\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Models\" />
-    <Folder Include="Repositories\" />
+    <Folder Include="Extentions\" />
   </ItemGroup>
 
 </Project>
