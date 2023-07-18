@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SystemVentas.Infrastructure.Interfaces;
+using SystemVentas.Application.Contract;
+using SystemVentas.Application.DTos.Categoria;
 
 namespace SystemVentas.API.Controllers
 {
@@ -7,57 +8,71 @@ namespace SystemVentas.API.Controllers
     [ApiController]
     public class CategoriaController : ControllerBase
     {
-        private readonly ICategoriaRepository categoriasRepository;
+        private readonly ICategoriaService categoriaService;
 
-        public CategoriaController(ICategoriaRepository categoriaRepository)
+        public CategoriaController(ICategoriaService categoriaService)
         {
-            this.categoriasRepository = categoriaRepository;
+            this.categoriaService = categoriaService;
         }
 
         [HttpGet("ShowCategory")]
         public IActionResult Get()
         {
-            var cat = this.categoriasRepository.GetAllCategories();
-            return Ok(cat);
+            var result = this.categoriaService.Get();
+            if (!result.Success)
+                return BadRequest(result);
+
+            return Ok(result);
         }
 
         [HttpGet("ShowCategoryById")]
         public IActionResult Get(int id)
         {
-            var cat = this.categoriasRepository.GetCategoryById(id);
-            return Ok(cat);
-        }
+            var result = this.categoriaService.GetById(id);
+            if (!result.Success)
+                return BadRequest(result);
 
-        [HttpGet("ShowCategoryByActive")]
-        public IActionResult GetActive()
-        {
-            var cat = this.categoriasRepository.GetCategoryByActive();
-            return Ok(cat);
+            return Ok(result);
         }
 
         [HttpGet("ShowCategoryByInactive")]
         public IActionResult GetInactive()
         {
-            var cat = this.categoriasRepository.GetCategoryByInactuve();
-            return Ok(cat);
+            var result = this.categoriaService.GetInactive();
+            if (!result.Success)
+                return BadRequest(result);
+
+            return Ok(result);
         }
 
         [HttpPost("SaveCategory")]
-        public IActionResult Post([FromBody] string value)
+        public IActionResult Post([FromBody] CategoriaAddDTo categoriaAdd)
         {
-            return Ok();
+            var result = this.categoriaService.Save(categoriaAdd);
+            if (!result.Success)
+                return BadRequest(result);
+
+            return Ok(result);
         }
 
         [HttpPut("UpdateCategory")]
-        public IActionResult Put([FromBody] string value)
+        public IActionResult Put([FromBody] CategoriaUpdateDTo categoriaUpdate)
         {
-            return Ok();
+            var result = this.categoriaService.Update(categoriaUpdate);
+            if (!result.Success)
+                return BadRequest(result);
+
+            return Ok(result);
         }
 
         [HttpDelete("RemoveCategory")]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(CategoriaRemoveDTo categoriaRemove)
         {
-            return Ok();
+            var result = this.categoriaService.Remove(categoriaRemove);
+            if (!result.Success)
+                return BadRequest(result);
+
+            return Ok(result);
         }
     }
 }

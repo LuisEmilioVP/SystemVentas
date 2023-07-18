@@ -11,8 +11,6 @@ namespace SystemVentas.Infrastructure.Interfaces
 
         CategoriaModels GetCategoryById(int categoryId);
 
-        List<CategoriaModels> GetCategoryByActive();
-
         List<CategoriaModels> GetCategoryByInactuve();
     }
 }

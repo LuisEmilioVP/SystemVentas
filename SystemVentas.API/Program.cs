@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using SystemVentas.Application.Contract;
+using SystemVentas.Application.Service;
 using SystemVentas.Infrastructure.Context;
 using SystemVentas.Infrastructure.Interfaces;
 using SystemVentas.Infrastructure.Repositories;
@@ -18,9 +20,12 @@ option.UseSqlServer(builder.Configuration.GetConnectionString("SystemVentasConte
 //*== Registro de Repositorios ==*//
 builder.Services.AddTransient<ICategoriaRepository, CategoriasRepository>();
 
+//*== Referencias de app servoces ==*//
+builder.Services.AddTransient<ICategoriaService, CategoriaService>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+//*== Configure the HTTP request pipeline. ==*//
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

@@ -981,6 +981,9 @@
         }
       },
       "SystemVentas.Application/1.0.0": {
+        "dependencies": {
+          "SystemVentas.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "SystemVentas.Application.dll": {}
         }
